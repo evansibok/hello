@@ -12,6 +12,7 @@ func main() {
 	b := "golang"
 	c := 3.59
 	d := true
+	i := "stored in i"
 
 	// Print variable and typeof
 
@@ -35,5 +36,8 @@ func main() {
 	fmt.Println()
 
 	fmt.Println(x)
+
+	// i is not beinf used - invalid code
+	// go run main.go to see what happens
 
 }
