@@ -2,11 +2,13 @@ package main
 
 import "fmt"
 
+var x = 56 // global scope
+
 func main() {
 
 	// Declare and initialize a variable
 
-	a := 20
+	a := 20 // local scope
 	b := "golang"
 	c := 3.59
 	d := true
@@ -31,4 +33,7 @@ func main() {
 	fmt.Printf("%v \n", h)
 
 	fmt.Println()
+
+	fmt.Println(x)
+
 }
